@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cusip-validation-claim-audit"
+version = "0.1.0"
+description = "Offline audit of documented security-identifier claims"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+[project.scripts]
+cusip-validation-claim-audit = "cusip_validation_claim_audit.audit:main"
